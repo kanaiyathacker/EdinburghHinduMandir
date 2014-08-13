@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E181D0C1972E0C800E56C78 /* HinduCalendarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E181D0B1972E0C800E56C78 /* HinduCalendarTableViewController.m */; };
+		7E181D0F1972EBE800E56C78 /* HinduCalendarDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E181D0E1972EBE800E56C78 /* HinduCalendarDetailViewController.m */; };
+		7E181D12197331B300E56C78 /* GalleryData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E181D11197331B300E56C78 /* GalleryData.m */; };
+		7E181D1519733C5500E56C78 /* GalleryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E181D1419733C5500E56C78 /* GalleryTableViewController.m */; };
+		7E181D181975C5D800E56C78 /* GalleryPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E181D171975C5D800E56C78 /* GalleryPhotoViewController.m */; };
+		7E181D1B1975C69A00E56C78 /* SlideImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E181D1A1975C69A00E56C78 /* SlideImageView.m */; };
+		7E61632A19917CE500AB027B /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E61632919917CE500AB027B /* PageContentViewController.m */; };
+		7E871835199570CC00FE38C5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E871834199570CC00FE38C5 /* Default-568h@2x.png */; };
+		7EDECBAA1986FA40008DCCF0 /* Bal-Ganesh.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDECBA91986FA40008DCCF0 /* Bal-Ganesh.png */; };
+		7EDECBAF1987193A008DCCF0 /* cute-ganesha-wallpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDECBAE19871926008DCCF0 /* cute-ganesha-wallpaper.png */; };
+		7EDECBB219898351008DCCF0 /* HoroscopeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDECBB119898351008DCCF0 /* HoroscopeTableViewController.m */; };
+		7EDECBB51989897A008DCCF0 /* HoroscripeDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDECBB41989897A008DCCF0 /* HoroscripeDetailsViewController.m */; };
+		7EDECBB819899515008DCCF0 /* DailyHoroscopeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDECBB719899515008DCCF0 /* DailyHoroscopeViewController.m */; };
+		7EDECBBB198AE4ED008DCCF0 /* MonthlyHoroscopeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDECBBA198AE4ED008DCCF0 /* MonthlyHoroscopeViewController.m */; };
+		7EDECBBE198C4601008DCCF0 /* PanchangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDECBBD198C4601008DCCF0 /* PanchangViewController.m */; };
+		7EDECBC1198CF723008DCCF0 /* OpeningTImeTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDECBC0198CF723008DCCF0 /* OpeningTImeTabViewController.m */; };
+		7EDECBC4198CF761008DCCF0 /* OpeningTImeUITabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDECBC3198CF761008DCCF0 /* OpeningTImeUITabBarController.m */; };
+		7EDECBC7198E5646008DCCF0 /* WeeklyHoroscopeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDECBC6198E5646008DCCF0 /* WeeklyHoroscopeViewController.m */; };
+		7EDECBCA198E7C76008DCCF0 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDECBC9198E7C76008DCCF0 /* LeftMenuViewController.m */; };
+		7EDECBCD198E7CB0008DCCF0 /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDECBCC198E7CB0008DCCF0 /* SlideNavigationController.m */; };
+		7EDECBDA198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDECBD0198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorSlide.m */; };
+		7EDECBDB198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDECBD2198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorFade.m */; };
+		7EDECBDC198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDECBD4198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
+		7EDECBDD198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDECBD6198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorScale.m */; };
+		7EDECBDE198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDECBD8198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
+		7EDECBF2198EE654008DCCF0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDECBF1198EE654008DCCF0 /* QuartzCore.framework */; };
+		7EDECBF5198EF083008DCCF0 /* KGModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDECBF4198EF083008DCCF0 /* KGModal.m */; };
+		7EDECBFB19903AC5008DCCF0 /* AboutUSUITabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDECBFA19903AC5008DCCF0 /* AboutUSUITabBarController.m */; };
+		7EE973AF195F7FEE004FFA7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE973AE195F7FEE004FFA7E /* Foundation.framework */; };
+		7EE973B1195F7FEE004FFA7E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE973B0195F7FEE004FFA7E /* CoreGraphics.framework */; };
+		7EE973B3195F7FEE004FFA7E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE973B2195F7FEE004FFA7E /* UIKit.framework */; };
+		7EE973B9195F7FEE004FFA7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EE973B7195F7FEE004FFA7E /* InfoPlist.strings */; };
+		7EE973BB195F7FEE004FFA7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE973BA195F7FEE004FFA7E /* main.m */; };
+		7EE973BF195F7FEE004FFA7E /* EdinProjectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE973BE195F7FEE004FFA7E /* EdinProjectAppDelegate.m */; };
+		7EE973C2195F7FEE004FFA7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE973C0195F7FEE004FFA7E /* Main.storyboard */; };
+		7EE973C5195F7FEE004FFA7E /* EdinProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE973C4195F7FEE004FFA7E /* EdinProjectViewController.m */; };
+		7EE973C7195F7FEE004FFA7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EE973C6195F7FEE004FFA7E /* Images.xcassets */; };
+		7EE973CE195F7FEE004FFA7E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE973CD195F7FEE004FFA7E /* XCTest.framework */; };
+		7EE973CF195F7FEE004FFA7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE973AE195F7FEE004FFA7E /* Foundation.framework */; };
+		7EE973D0195F7FEE004FFA7E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EE973B2195F7FEE004FFA7E /* UIKit.framework */; };
+		7EE973D8195F7FEE004FFA7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EE973D6195F7FEE004FFA7E /* InfoPlist.strings */; };
+		7EE973DA195F7FEE004FFA7E /* EdinProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE973D9195F7FEE004FFA7E /* EdinProjectTests.m */; };
+		7EE973FB195F802A004FFA7E /* AccessData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE973E4195F802A004FFA7E /* AccessData.m */; };
+		7EE973FC195F802A004FFA7E /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE973E6195F802A004FFA7E /* DateUtil.m */; };
+		7EE973FD195F802A004FFA7E /* MenuItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE973E8195F802A004FFA7E /* MenuItemViewController.m */; };
+		7EE973FE195F802A004FFA7E /* TimingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE973EA195F802A004FFA7E /* TimingViewController.m */; };
+		7EE973FF195F802A004FFA7E /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE973EC195F802A004FFA7E /* ContactViewController.m */; };
+		7EE97400195F802A004FFA7E /* MailComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE973EE195F802A004FFA7E /* MailComponent.m */; };
+		7EE97401195F802A004FFA7E /* DonationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE973F0195F802A004FFA7E /* DonationViewController.m */; };
+		7EE97402195F802A004FFA7E /* DonatiionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE973F2195F802A004FFA7E /* DonatiionViewController.m */; };
+		7EE97403195F802A004FFA7E /* VolunteersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE973F4195F802A004FFA7E /* VolunteersViewController.m */; };
+		7EE97404195F802A004FFA7E /* CommunityHallBookingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE973F6195F802A004FFA7E /* CommunityHallBookingViewController.m */; };
+		7EE97405195F802A004FFA7E /* CalendarData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE973F8195F802A004FFA7E /* CalendarData.m */; };
+		7EE97406195F802A004FFA7E /* OpeningDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE973FA195F802A004FFA7E /* OpeningDetailsViewController.m */; };
+		7EE97409195F9EA6004FFA7E /* MyCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE97408195F9EA6004FFA7E /* MyCalendar.m */; };
+		7EE9740F1960166F004FFA7E /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9740E1960166F004FFA7E /* EventsViewController.m */; };
+		7EE9741219601D2B004FFA7E /* EventDetialsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9741119601D2B004FFA7E /* EventDetialsViewController.m */; };
+		7EF7A97319636C040095C849 /* MonthlyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7A97219636C040095C849 /* MonthlyTableViewController.m */; };
+		7EF7A97619636C250095C849 /* YearlyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7A97519636C250095C849 /* YearlyTableViewController.m */; };
+		7EF7A979196836F90095C849 /* NextEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7A978196836F90095C849 /* NextEventViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EE973D1195F7FEE004FFA7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EE973A3195F7FEE004FFA7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EE973AA195F7FEE004FFA7E;
+			remoteInfo = EdinProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E181D0A1972E0C800E56C78 /* HinduCalendarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HinduCalendarTableViewController.h; sourceTree = "<group>"; };
+		7E181D0B1972E0C800E56C78 /* HinduCalendarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HinduCalendarTableViewController.m; sourceTree = "<group>"; };
+		7E181D0D1972EBE800E56C78 /* HinduCalendarDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HinduCalendarDetailViewController.h; sourceTree = "<group>"; };
+		7E181D0E1972EBE800E56C78 /* HinduCalendarDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HinduCalendarDetailViewController.m; sourceTree = "<group>"; };
+		7E181D10197331B300E56C78 /* GalleryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryData.h; sourceTree = "<group>"; };
+		7E181D11197331B300E56C78 /* GalleryData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryData.m; sourceTree = "<group>"; };
+		7E181D1319733C5500E56C78 /* GalleryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryTableViewController.h; sourceTree = "<group>"; };
+		7E181D1419733C5500E56C78 /* GalleryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryTableViewController.m; sourceTree = "<group>"; };
+		7E181D161975C5D800E56C78 /* GalleryPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryPhotoViewController.h; sourceTree = "<group>"; };
+		7E181D171975C5D800E56C78 /* GalleryPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryPhotoViewController.m; sourceTree = "<group>"; };
+		7E181D191975C69A00E56C78 /* SlideImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideImageView.h; sourceTree = "<group>"; };
+		7E181D1A1975C69A00E56C78 /* SlideImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideImageView.m; sourceTree = "<group>"; };
+		7E61632819917CE500AB027B /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		7E61632919917CE500AB027B /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
+		7E871834199570CC00FE38C5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7EDECBA91986FA40008DCCF0 /* Bal-Ganesh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bal-Ganesh.png"; sourceTree = "<group>"; };
+		7EDECBAE19871926008DCCF0 /* cute-ganesha-wallpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cute-ganesha-wallpaper.png"; sourceTree = "<group>"; };
+		7EDECBB019898351008DCCF0 /* HoroscopeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoroscopeTableViewController.h; sourceTree = "<group>"; };
+		7EDECBB119898351008DCCF0 /* HoroscopeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoroscopeTableViewController.m; sourceTree = "<group>"; };
+		7EDECBB31989897A008DCCF0 /* HoroscripeDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoroscripeDetailsViewController.h; sourceTree = "<group>"; };
+		7EDECBB41989897A008DCCF0 /* HoroscripeDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoroscripeDetailsViewController.m; sourceTree = "<group>"; };
+		7EDECBB619899515008DCCF0 /* DailyHoroscopeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyHoroscopeViewController.h; sourceTree = "<group>"; };
+		7EDECBB719899515008DCCF0 /* DailyHoroscopeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyHoroscopeViewController.m; sourceTree = "<group>"; };
+		7EDECBB9198AE4ED008DCCF0 /* MonthlyHoroscopeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonthlyHoroscopeViewController.h; sourceTree = "<group>"; };
+		7EDECBBA198AE4ED008DCCF0 /* MonthlyHoroscopeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthlyHoroscopeViewController.m; sourceTree = "<group>"; };
+		7EDECBBC198C4601008DCCF0 /* PanchangViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanchangViewController.h; sourceTree = "<group>"; };
+		7EDECBBD198C4601008DCCF0 /* PanchangViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanchangViewController.m; sourceTree = "<group>"; };
+		7EDECBBF198CF723008DCCF0 /* OpeningTImeTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpeningTImeTabViewController.h; sourceTree = "<group>"; };
+		7EDECBC0198CF723008DCCF0 /* OpeningTImeTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpeningTImeTabViewController.m; sourceTree = "<group>"; };
+		7EDECBC2198CF761008DCCF0 /* OpeningTImeUITabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpeningTImeUITabBarController.h; sourceTree = "<group>"; };
+		7EDECBC3198CF761008DCCF0 /* OpeningTImeUITabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpeningTImeUITabBarController.m; sourceTree = "<group>"; };
+		7EDECBC5198E5646008DCCF0 /* WeeklyHoroscopeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeeklyHoroscopeViewController.h; sourceTree = "<group>"; };
+		7EDECBC6198E5646008DCCF0 /* WeeklyHoroscopeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeeklyHoroscopeViewController.m; sourceTree = "<group>"; };
+		7EDECBC8198E7C76008DCCF0 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
+		7EDECBC9198E7C76008DCCF0 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
+		7EDECBCB198E7CB0008DCCF0 /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationController.h; sourceTree = "<group>"; };
+		7EDECBCC198E7CB0008DCCF0 /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationController.m; sourceTree = "<group>"; };
+		7EDECBCF198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorSlide.h; path = "../../../../Downloads/iOS-Slide-Menu-master 2/SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlide.h"; sourceTree = "<group>"; };
+		7EDECBD0198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorSlide.m; path = "../../../../Downloads/iOS-Slide-Menu-master 2/SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlide.m"; sourceTree = "<group>"; };
+		7EDECBD1198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorFade.h; path = "../../../../Downloads/iOS-Slide-Menu-master 2/SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorFade.h"; sourceTree = "<group>"; };
+		7EDECBD2198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorFade.m; path = "../../../../Downloads/iOS-Slide-Menu-master 2/SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorFade.m"; sourceTree = "<group>"; };
+		7EDECBD3198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorSlideAndFade.h; path = "../../../../Downloads/iOS-Slide-Menu-master 2/SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlideAndFade.h"; sourceTree = "<group>"; };
+		7EDECBD4198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorSlideAndFade.m; path = "../../../../Downloads/iOS-Slide-Menu-master 2/SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlideAndFade.m"; sourceTree = "<group>"; };
+		7EDECBD5198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorScale.h; path = "../../../../Downloads/iOS-Slide-Menu-master 2/SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScale.h"; sourceTree = "<group>"; };
+		7EDECBD6198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorScale.m; path = "../../../../Downloads/iOS-Slide-Menu-master 2/SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScale.m"; sourceTree = "<group>"; };
+		7EDECBD7198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorScaleAndFade.h; path = "../../../../Downloads/iOS-Slide-Menu-master 2/SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScaleAndFade.h"; sourceTree = "<group>"; };
+		7EDECBD8198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorScaleAndFade.m; path = "../../../../Downloads/iOS-Slide-Menu-master 2/SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScaleAndFade.m"; sourceTree = "<group>"; };
+		7EDECBD9198E7D74008DCCF0 /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimator.h; path = "../../../../Downloads/iOS-Slide-Menu-master 2/SlideMenu/Source/Animations/SlideNavigationContorllerAnimator.h"; sourceTree = "<group>"; };
+		7EDECBF1198EE654008DCCF0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7EDECBF3198EF083008DCCF0 /* KGModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGModal.h; sourceTree = "<group>"; };
+		7EDECBF4198EF083008DCCF0 /* KGModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGModal.m; sourceTree = "<group>"; };
+		7EDECBF919903AC5008DCCF0 /* AboutUSUITabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutUSUITabBarController.h; path = ../AboutUSUITabBarController.h; sourceTree = "<group>"; };
+		7EDECBFA19903AC5008DCCF0 /* AboutUSUITabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutUSUITabBarController.m; path = ../AboutUSUITabBarController.m; sourceTree = "<group>"; };
+		7EE973AB195F7FEE004FFA7E /* Hindu Mandir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hindu Mandir.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EE973AE195F7FEE004FFA7E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7EE973B0195F7FEE004FFA7E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7EE973B2195F7FEE004FFA7E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7EE973B6195F7FEE004FFA7E /* Hindu Mandir-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hindu Mandir-Info.plist"; sourceTree = "<group>"; };
+		7EE973B8195F7FEE004FFA7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7EE973BA195F7FEE004FFA7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EE973BC195F7FEE004FFA7E /* Hindu Mandir-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hindu Mandir-Prefix.pch"; sourceTree = "<group>"; };
+		7EE973BD195F7FEE004FFA7E /* EdinProjectAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EdinProjectAppDelegate.h; sourceTree = "<group>"; };
+		7EE973BE195F7FEE004FFA7E /* EdinProjectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EdinProjectAppDelegate.m; sourceTree = "<group>"; };
+		7EE973C1195F7FEE004FFA7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EE973C3195F7FEE004FFA7E /* EdinProjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EdinProjectViewController.h; sourceTree = "<group>"; };
+		7EE973C4195F7FEE004FFA7E /* EdinProjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EdinProjectViewController.m; sourceTree = "<group>"; };
+		7EE973C6195F7FEE004FFA7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7EE973CC195F7FEE004FFA7E /* Hindu MandirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hindu MandirTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EE973CD195F7FEE004FFA7E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7EE973D5195F7FEE004FFA7E /* Hindu MandirTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hindu MandirTests-Info.plist"; sourceTree = "<group>"; };
+		7EE973D7195F7FEE004FFA7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7EE973D9195F7FEE004FFA7E /* EdinProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EdinProjectTests.m; sourceTree = "<group>"; };
+		7EE973E3195F802A004FFA7E /* AccessData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccessData.h; path = ../../EdinburghProject/EdinburghProject/AccessData.h; sourceTree = "<group>"; };
+		7EE973E4195F802A004FFA7E /* AccessData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccessData.m; path = ../../EdinburghProject/EdinburghProject/AccessData.m; sourceTree = "<group>"; };
+		7EE973E5195F802A004FFA7E /* DateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DateUtil.h; path = ../../EdinburghProject/EdinburghProject/DateUtil.h; sourceTree = "<group>"; };
+		7EE973E6195F802A004FFA7E /* DateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DateUtil.m; path = ../../EdinburghProject/EdinburghProject/DateUtil.m; sourceTree = "<group>"; };
+		7EE973E7195F802A004FFA7E /* MenuItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuItemViewController.h; path = ../../EdinburghProject/EdinburghProject/MenuItemViewController.h; sourceTree = "<group>"; };
+		7EE973E8195F802A004FFA7E /* MenuItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuItemViewController.m; path = ../../EdinburghProject/EdinburghProject/MenuItemViewController.m; sourceTree = "<group>"; };
+		7EE973E9195F802A004FFA7E /* TimingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimingViewController.h; path = ../../EdinburghProject/TimingViewController.h; sourceTree = "<group>"; };
+		7EE973EA195F802A004FFA7E /* TimingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimingViewController.m; path = ../../EdinburghProject/TimingViewController.m; sourceTree = "<group>"; };
+		7EE973EB195F802A004FFA7E /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactViewController.h; path = ../../EdinburghProject/EdinburghProject/ContactViewController.h; sourceTree = "<group>"; };
+		7EE973EC195F802A004FFA7E /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactViewController.m; path = ../../EdinburghProject/EdinburghProject/ContactViewController.m; sourceTree = "<group>"; };
+		7EE973ED195F802A004FFA7E /* MailComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MailComponent.h; path = ../../EdinburghProject/EdinburghProject/MailComponent.h; sourceTree = "<group>"; };
+		7EE973EE195F802A004FFA7E /* MailComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MailComponent.m; path = ../../EdinburghProject/EdinburghProject/MailComponent.m; sourceTree = "<group>"; };
+		7EE973EF195F802A004FFA7E /* DonationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DonationViewController.h; path = ../../EdinburghProject/EdinburghProject/DonationViewController.h; sourceTree = "<group>"; };
+		7EE973F0195F802A004FFA7E /* DonationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DonationViewController.m; path = ../../EdinburghProject/EdinburghProject/DonationViewController.m; sourceTree = "<group>"; };
+		7EE973F1195F802A004FFA7E /* DonatiionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DonatiionViewController.h; path = ../../EdinburghProject/EdinburghProject/DonatiionViewController.h; sourceTree = "<group>"; };
+		7EE973F2195F802A004FFA7E /* DonatiionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DonatiionViewController.m; path = ../../EdinburghProject/EdinburghProject/DonatiionViewController.m; sourceTree = "<group>"; };
+		7EE973F3195F802A004FFA7E /* VolunteersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VolunteersViewController.h; path = ../../EdinburghProject/EdinburghProject/VolunteersViewController.h; sourceTree = "<group>"; };
+		7EE973F4195F802A004FFA7E /* VolunteersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VolunteersViewController.m; path = ../../EdinburghProject/EdinburghProject/VolunteersViewController.m; sourceTree = "<group>"; };
+		7EE973F5195F802A004FFA7E /* CommunityHallBookingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommunityHallBookingViewController.h; path = ../../EdinburghProject/EdinburghProject/CommunityHallBookingViewController.h; sourceTree = "<group>"; };
+		7EE973F6195F802A004FFA7E /* CommunityHallBookingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommunityHallBookingViewController.m; path = ../../EdinburghProject/EdinburghProject/CommunityHallBookingViewController.m; sourceTree = "<group>"; };
+		7EE973F7195F802A004FFA7E /* CalendarData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarData.h; path = ../../EdinburghProject/EdinburghProject/CalendarData.h; sourceTree = "<group>"; };
+		7EE973F8195F802A004FFA7E /* CalendarData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarData.m; path = ../../EdinburghProject/EdinburghProject/CalendarData.m; sourceTree = "<group>"; };
+		7EE973F9195F802A004FFA7E /* OpeningDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpeningDetailsViewController.h; path = ../../EdinburghProject/EdinburghProject/OpeningDetailsViewController.h; sourceTree = "<group>"; };
+		7EE973FA195F802A004FFA7E /* OpeningDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpeningDetailsViewController.m; path = ../../EdinburghProject/EdinburghProject/OpeningDetailsViewController.m; sourceTree = "<group>"; };
+		7EE97407195F9EA6004FFA7E /* MyCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCalendar.h; sourceTree = "<group>"; };
+		7EE97408195F9EA6004FFA7E /* MyCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCalendar.m; sourceTree = "<group>"; };
+		7EE9740D1960166F004FFA7E /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventsViewController.h; path = ../EventsViewController.h; sourceTree = "<group>"; };
+		7EE9740E1960166F004FFA7E /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventsViewController.m; path = ../EventsViewController.m; sourceTree = "<group>"; };
+		7EE9741019601D2B004FFA7E /* EventDetialsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetialsViewController.h; sourceTree = "<group>"; };
+		7EE9741119601D2B004FFA7E /* EventDetialsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetialsViewController.m; sourceTree = "<group>"; };
+		7EF7A9701963660E0095C849 /* EdinProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = EdinProject.entitlements; sourceTree = "<group>"; };
+		7EF7A97119636C040095C849 /* MonthlyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonthlyTableViewController.h; sourceTree = "<group>"; };
+		7EF7A97219636C040095C849 /* MonthlyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthlyTableViewController.m; sourceTree = "<group>"; };
+		7EF7A97419636C250095C849 /* YearlyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YearlyTableViewController.h; sourceTree = "<group>"; };
+		7EF7A97519636C250095C849 /* YearlyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YearlyTableViewController.m; sourceTree = "<group>"; };
+		7EF7A977196836F90095C849 /* NextEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextEventViewController.h; sourceTree = "<group>"; };
+		7EF7A978196836F90095C849 /* NextEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextEventViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EE973A8195F7FEE004FFA7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDECBF2198EE654008DCCF0 /* QuartzCore.framework in Frameworks */,
+				7EE973B1195F7FEE004FFA7E /* CoreGraphics.framework in Frameworks */,
+				7EE973B3195F7FEE004FFA7E /* UIKit.framework in Frameworks */,
+				7EE973AF195F7FEE004FFA7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EE973C9195F7FEE004FFA7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE973CE195F7FEE004FFA7E /* XCTest.framework in Frameworks */,
+				7EE973D0195F7FEE004FFA7E /* UIKit.framework in Frameworks */,
+				7EE973CF195F7FEE004FFA7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EDECBCE198E7D65008DCCF0 /* animtaion */ = {
+			isa = PBXGroup;
+			children = (
+				7EDECBCF198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorSlide.h */,
+				7EDECBD0198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorSlide.m */,
+				7EDECBD1198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorFade.h */,
+				7EDECBD2198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorFade.m */,
+				7EDECBD3198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
+				7EDECBD4198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
+				7EDECBD5198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorScale.h */,
+				7EDECBD6198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorScale.m */,
+				7EDECBD7198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
+				7EDECBD8198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
+				7EDECBD9198E7D74008DCCF0 /* SlideNavigationContorllerAnimator.h */,
+			);
+			name = animtaion;
+			sourceTree = "<group>";
+		};
+		7EE973A2195F7FEE004FFA7E = {
+			isa = PBXGroup;
+			children = (
+				7E871834199570CC00FE38C5 /* Default-568h@2x.png */,
+				7EDECBAE19871926008DCCF0 /* cute-ganesha-wallpaper.png */,
+				7EDECBA91986FA40008DCCF0 /* Bal-Ganesh.png */,
+				7EE973B4195F7FEE004FFA7E /* EdinProject */,
+				7EE973D3195F7FEE004FFA7E /* EdinProjectTests */,
+				7EE973AD195F7FEE004FFA7E /* Frameworks */,
+				7EE973AC195F7FEE004FFA7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EE973AC195F7FEE004FFA7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EE973AB195F7FEE004FFA7E /* Hindu Mandir.app */,
+				7EE973CC195F7FEE004FFA7E /* Hindu MandirTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EE973AD195F7FEE004FFA7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EDECBF1198EE654008DCCF0 /* QuartzCore.framework */,
+				7EE973AE195F7FEE004FFA7E /* Foundation.framework */,
+				7EE973B0195F7FEE004FFA7E /* CoreGraphics.framework */,
+				7EE973B2195F7FEE004FFA7E /* UIKit.framework */,
+				7EE973CD195F7FEE004FFA7E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EE973B4195F7FEE004FFA7E /* EdinProject */ = {
+			isa = PBXGroup;
+			children = (
+				7EF7A9701963660E0095C849 /* EdinProject.entitlements */,
+				7EE973BD195F7FEE004FFA7E /* EdinProjectAppDelegate.h */,
+				7EE973BE195F7FEE004FFA7E /* EdinProjectAppDelegate.m */,
+				7EE973C0195F7FEE004FFA7E /* Main.storyboard */,
+				7EE973C3195F7FEE004FFA7E /* EdinProjectViewController.h */,
+				7EE973C4195F7FEE004FFA7E /* EdinProjectViewController.m */,
+				7EE973C6195F7FEE004FFA7E /* Images.xcassets */,
+				7EDECBCE198E7D65008DCCF0 /* animtaion */,
+				7EE973B5195F7FEE004FFA7E /* Supporting Files */,
+				7EE97407195F9EA6004FFA7E /* MyCalendar.h */,
+				7EE97408195F9EA6004FFA7E /* MyCalendar.m */,
+			);
+			path = EdinProject;
+			sourceTree = "<group>";
+		};
+		7EE973B5195F7FEE004FFA7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EDECBF919903AC5008DCCF0 /* AboutUSUITabBarController.h */,
+				7EDECBFA19903AC5008DCCF0 /* AboutUSUITabBarController.m */,
+				7EDECBF3198EF083008DCCF0 /* KGModal.h */,
+				7EDECBF4198EF083008DCCF0 /* KGModal.m */,
+				7EDECBCB198E7CB0008DCCF0 /* SlideNavigationController.h */,
+				7EDECBCC198E7CB0008DCCF0 /* SlideNavigationController.m */,
+				7EDECBC8198E7C76008DCCF0 /* LeftMenuViewController.h */,
+				7EDECBC9198E7C76008DCCF0 /* LeftMenuViewController.m */,
+				7EDECBC2198CF761008DCCF0 /* OpeningTImeUITabBarController.h */,
+				7EDECBC3198CF761008DCCF0 /* OpeningTImeUITabBarController.m */,
+				7EDECBBF198CF723008DCCF0 /* OpeningTImeTabViewController.h */,
+				7EDECBC0198CF723008DCCF0 /* OpeningTImeTabViewController.m */,
+				7EDECBB019898351008DCCF0 /* HoroscopeTableViewController.h */,
+				7EDECBB119898351008DCCF0 /* HoroscopeTableViewController.m */,
+				7EDECBB31989897A008DCCF0 /* HoroscripeDetailsViewController.h */,
+				7EDECBB41989897A008DCCF0 /* HoroscripeDetailsViewController.m */,
+				7EDECBB619899515008DCCF0 /* DailyHoroscopeViewController.h */,
+				7EDECBB719899515008DCCF0 /* DailyHoroscopeViewController.m */,
+				7EDECBC5198E5646008DCCF0 /* WeeklyHoroscopeViewController.h */,
+				7EDECBC6198E5646008DCCF0 /* WeeklyHoroscopeViewController.m */,
+				7EDECBB9198AE4ED008DCCF0 /* MonthlyHoroscopeViewController.h */,
+				7EDECBBA198AE4ED008DCCF0 /* MonthlyHoroscopeViewController.m */,
+				7EDECBBC198C4601008DCCF0 /* PanchangViewController.h */,
+				7EDECBBD198C4601008DCCF0 /* PanchangViewController.m */,
+				7E181D191975C69A00E56C78 /* SlideImageView.h */,
+				7E181D1A1975C69A00E56C78 /* SlideImageView.m */,
+				7EF7A97119636C040095C849 /* MonthlyTableViewController.h */,
+				7EF7A97219636C040095C849 /* MonthlyTableViewController.m */,
+				7EE973E3195F802A004FFA7E /* AccessData.h */,
+				7EE973E4195F802A004FFA7E /* AccessData.m */,
+				7EE973E5195F802A004FFA7E /* DateUtil.h */,
+				7EE973E6195F802A004FFA7E /* DateUtil.m */,
+				7EE973E7195F802A004FFA7E /* MenuItemViewController.h */,
+				7EE973E8195F802A004FFA7E /* MenuItemViewController.m */,
+				7EE973E9195F802A004FFA7E /* TimingViewController.h */,
+				7EE973EA195F802A004FFA7E /* TimingViewController.m */,
+				7EE9740D1960166F004FFA7E /* EventsViewController.h */,
+				7EE9740E1960166F004FFA7E /* EventsViewController.m */,
+				7EE973EB195F802A004FFA7E /* ContactViewController.h */,
+				7EE973EC195F802A004FFA7E /* ContactViewController.m */,
+				7EE973ED195F802A004FFA7E /* MailComponent.h */,
+				7EE973EE195F802A004FFA7E /* MailComponent.m */,
+				7EE973EF195F802A004FFA7E /* DonationViewController.h */,
+				7EE973F0195F802A004FFA7E /* DonationViewController.m */,
+				7EE973F1195F802A004FFA7E /* DonatiionViewController.h */,
+				7EE973F2195F802A004FFA7E /* DonatiionViewController.m */,
+				7EE973F3195F802A004FFA7E /* VolunteersViewController.h */,
+				7EE973F4195F802A004FFA7E /* VolunteersViewController.m */,
+				7EE973F5195F802A004FFA7E /* CommunityHallBookingViewController.h */,
+				7EE973F6195F802A004FFA7E /* CommunityHallBookingViewController.m */,
+				7EE973F7195F802A004FFA7E /* CalendarData.h */,
+				7EE973F8195F802A004FFA7E /* CalendarData.m */,
+				7EE973F9195F802A004FFA7E /* OpeningDetailsViewController.h */,
+				7EE973FA195F802A004FFA7E /* OpeningDetailsViewController.m */,
+				7EE9741019601D2B004FFA7E /* EventDetialsViewController.h */,
+				7EE9741119601D2B004FFA7E /* EventDetialsViewController.m */,
+				7EE973B6195F7FEE004FFA7E /* Hindu Mandir-Info.plist */,
+				7EE973B7195F7FEE004FFA7E /* InfoPlist.strings */,
+				7EE973BA195F7FEE004FFA7E /* main.m */,
+				7EE973BC195F7FEE004FFA7E /* Hindu Mandir-Prefix.pch */,
+				7EF7A97419636C250095C849 /* YearlyTableViewController.h */,
+				7EF7A97519636C250095C849 /* YearlyTableViewController.m */,
+				7EF7A977196836F90095C849 /* NextEventViewController.h */,
+				7EF7A978196836F90095C849 /* NextEventViewController.m */,
+				7E181D0A1972E0C800E56C78 /* HinduCalendarTableViewController.h */,
+				7E181D0B1972E0C800E56C78 /* HinduCalendarTableViewController.m */,
+				7E181D0D1972EBE800E56C78 /* HinduCalendarDetailViewController.h */,
+				7E181D0E1972EBE800E56C78 /* HinduCalendarDetailViewController.m */,
+				7E181D10197331B300E56C78 /* GalleryData.h */,
+				7E181D11197331B300E56C78 /* GalleryData.m */,
+				7E181D1319733C5500E56C78 /* GalleryTableViewController.h */,
+				7E181D1419733C5500E56C78 /* GalleryTableViewController.m */,
+				7E181D161975C5D800E56C78 /* GalleryPhotoViewController.h */,
+				7E181D171975C5D800E56C78 /* GalleryPhotoViewController.m */,
+				7E61632819917CE500AB027B /* PageContentViewController.h */,
+				7E61632919917CE500AB027B /* PageContentViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EE973D3195F7FEE004FFA7E /* EdinProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EE973D9195F7FEE004FFA7E /* EdinProjectTests.m */,
+				7EE973D4195F7FEE004FFA7E /* Supporting Files */,
+			);
+			path = EdinProjectTests;
+			sourceTree = "<group>";
+		};
+		7EE973D4195F7FEE004FFA7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EE973D5195F7FEE004FFA7E /* Hindu MandirTests-Info.plist */,
+				7EE973D6195F7FEE004FFA7E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EE973AA195F7FEE004FFA7E /* Hindu Mandir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EE973DD195F7FEE004FFA7E /* Build configuration list for PBXNativeTarget "Hindu Mandir" */;
+			buildPhases = (
+				7EE973A7195F7FEE004FFA7E /* Sources */,
+				7EE973A8195F7FEE004FFA7E /* Frameworks */,
+				7EE973A9195F7FEE004FFA7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hindu Mandir";
+			productName = EdinProject;
+			productReference = 7EE973AB195F7FEE004FFA7E /* Hindu Mandir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EE973CB195F7FEE004FFA7E /* Hindu MandirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EE973E0195F7FEE004FFA7E /* Build configuration list for PBXNativeTarget "Hindu MandirTests" */;
+			buildPhases = (
+				7EE973C8195F7FEE004FFA7E /* Sources */,
+				7EE973C9195F7FEE004FFA7E /* Frameworks */,
+				7EE973CA195F7FEE004FFA7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EE973D2195F7FEE004FFA7E /* PBXTargetDependency */,
+			);
+			name = "Hindu MandirTests";
+			productName = EdinProjectTests;
+			productReference = 7EE973CC195F7FEE004FFA7E /* Hindu MandirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EE973A3195F7FEE004FFA7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EdinProject;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = VaioTech;
+				TargetAttributes = {
+					7EE973AA195F7FEE004FFA7E = {
+						DevelopmentTeam = 8FGES29KFR;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					7EE973CB195F7FEE004FFA7E = {
+						TestTargetID = 7EE973AA195F7FEE004FFA7E;
+					};
+				};
+			};
+			buildConfigurationList = 7EE973A6195F7FEE004FFA7E /* Build configuration list for PBXProject "Hindu Mandir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EE973A2195F7FEE004FFA7E;
+			productRefGroup = 7EE973AC195F7FEE004FFA7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EE973AA195F7FEE004FFA7E /* Hindu Mandir */,
+				7EE973CB195F7FEE004FFA7E /* Hindu MandirTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EE973A9195F7FEE004FFA7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDECBAF1987193A008DCCF0 /* cute-ganesha-wallpaper.png in Resources */,
+				7EE973C7195F7FEE004FFA7E /* Images.xcassets in Resources */,
+				7EE973B9195F7FEE004FFA7E /* InfoPlist.strings in Resources */,
+				7EE973C2195F7FEE004FFA7E /* Main.storyboard in Resources */,
+				7EDECBAA1986FA40008DCCF0 /* Bal-Ganesh.png in Resources */,
+				7E871835199570CC00FE38C5 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EE973CA195F7FEE004FFA7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE973D8195F7FEE004FFA7E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EE973A7195F7FEE004FFA7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E181D181975C5D800E56C78 /* GalleryPhotoViewController.m in Sources */,
+				7EDECBCD198E7CB0008DCCF0 /* SlideNavigationController.m in Sources */,
+				7EDECBB51989897A008DCCF0 /* HoroscripeDetailsViewController.m in Sources */,
+				7EE973C5195F7FEE004FFA7E /* EdinProjectViewController.m in Sources */,
+				7EDECBDC198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
+				7EDECBBE198C4601008DCCF0 /* PanchangViewController.m in Sources */,
+				7EDECBCA198E7C76008DCCF0 /* LeftMenuViewController.m in Sources */,
+				7EE973FC195F802A004FFA7E /* DateUtil.m in Sources */,
+				7EE973BF195F7FEE004FFA7E /* EdinProjectAppDelegate.m in Sources */,
+				7EDECBC4198CF761008DCCF0 /* OpeningTImeUITabBarController.m in Sources */,
+				7EF7A97619636C250095C849 /* YearlyTableViewController.m in Sources */,
+				7EE973FE195F802A004FFA7E /* TimingViewController.m in Sources */,
+				7EE973BB195F7FEE004FFA7E /* main.m in Sources */,
+				7EDECBDD198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorScale.m in Sources */,
+				7EE97402195F802A004FFA7E /* DonatiionViewController.m in Sources */,
+				7EF7A97319636C040095C849 /* MonthlyTableViewController.m in Sources */,
+				7E181D1B1975C69A00E56C78 /* SlideImageView.m in Sources */,
+				7E181D0F1972EBE800E56C78 /* HinduCalendarDetailViewController.m in Sources */,
+				7EE973FF195F802A004FFA7E /* ContactViewController.m in Sources */,
+				7EDECBBB198AE4ED008DCCF0 /* MonthlyHoroscopeViewController.m in Sources */,
+				7EDECBB219898351008DCCF0 /* HoroscopeTableViewController.m in Sources */,
+				7E181D12197331B300E56C78 /* GalleryData.m in Sources */,
+				7E61632A19917CE500AB027B /* PageContentViewController.m in Sources */,
+				7EE97409195F9EA6004FFA7E /* MyCalendar.m in Sources */,
+				7EDECBC7198E5646008DCCF0 /* WeeklyHoroscopeViewController.m in Sources */,
+				7EDECBDA198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
+				7EE97403195F802A004FFA7E /* VolunteersViewController.m in Sources */,
+				7EDECBC1198CF723008DCCF0 /* OpeningTImeTabViewController.m in Sources */,
+				7EDECBB819899515008DCCF0 /* DailyHoroscopeViewController.m in Sources */,
+				7EE97401195F802A004FFA7E /* DonationViewController.m in Sources */,
+				7EDECBFB19903AC5008DCCF0 /* AboutUSUITabBarController.m in Sources */,
+				7EF7A979196836F90095C849 /* NextEventViewController.m in Sources */,
+				7E181D1519733C5500E56C78 /* GalleryTableViewController.m in Sources */,
+				7EE97400195F802A004FFA7E /* MailComponent.m in Sources */,
+				7EE973FD195F802A004FFA7E /* MenuItemViewController.m in Sources */,
+				7EE9740F1960166F004FFA7E /* EventsViewController.m in Sources */,
+				7EE97405195F802A004FFA7E /* CalendarData.m in Sources */,
+				7EDECBDE198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
+				7EDECBDB198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorFade.m in Sources */,
+				7EE9741219601D2B004FFA7E /* EventDetialsViewController.m in Sources */,
+				7EE97406195F802A004FFA7E /* OpeningDetailsViewController.m in Sources */,
+				7EE973FB195F802A004FFA7E /* AccessData.m in Sources */,
+				7E181D0C1972E0C800E56C78 /* HinduCalendarTableViewController.m in Sources */,
+				7EE97404195F802A004FFA7E /* CommunityHallBookingViewController.m in Sources */,
+				7EDECBF5198EF083008DCCF0 /* KGModal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EE973C8195F7FEE004FFA7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE973DA195F7FEE004FFA7E /* EdinProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EE973D2195F7FEE004FFA7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EE973AA195F7FEE004FFA7E /* Hindu Mandir */;
+			targetProxy = 7EE973D1195F7FEE004FFA7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EE973B7195F7FEE004FFA7E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EE973B8195F7FEE004FFA7E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7EE973C0195F7FEE004FFA7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EE973C1195F7FEE004FFA7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EE973D6195F7FEE004FFA7E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EE973D7195F7FEE004FFA7E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EE973DB195F7FEE004FFA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "E2CA328D-3A6D-4662-8FE3-05466DF11337";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7EE973DC195F7FEE004FFA7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "E2CA328D-3A6D-4662-8FE3-05466DF11337";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EE973DE195F7FEE004FFA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EdinProject/EdinProject.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EdinProject/Hindu Mandir-Prefix.pch";
+				INFOPLIST_FILE = "EdinProject/Hindu Mandir-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EdinProject/Donky_iOS_SDK/DonkyCoreLibrary_v1/DonkCore_SDK",
+					"$(PROJECT_DIR)/EdinProject/Donky_iOS_SDK/DonkyCoreLibrary_v1/DonkCoreDependencyFreeSDK",
+					"$(PROJECT_DIR)/EdinProject/Donky_iOS_SDK/DonkyUILibrary_v1/DonkyUI_SDK",
+					"$(PROJECT_DIR)/EdinProject/Donky_iOS_SDK/DonkyUILibrary_v1/DonkyUIDependencyFreeSDK",
+					"$(PROJECT_DIR)/EdinProject/DonkyUI_SDK",
+				);
+				PRODUCT_NAME = "Hindu Mandir";
+				PROVISIONING_PROFILE = "E2CA328D-3A6D-4662-8FE3-05466DF11337";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7EE973DF195F7FEE004FFA7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EdinProject/EdinProject.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EdinProject/Hindu Mandir-Prefix.pch";
+				INFOPLIST_FILE = "EdinProject/Hindu Mandir-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EdinProject/Donky_iOS_SDK/DonkyCoreLibrary_v1/DonkCore_SDK",
+					"$(PROJECT_DIR)/EdinProject/Donky_iOS_SDK/DonkyCoreLibrary_v1/DonkCoreDependencyFreeSDK",
+					"$(PROJECT_DIR)/EdinProject/Donky_iOS_SDK/DonkyUILibrary_v1/DonkyUI_SDK",
+					"$(PROJECT_DIR)/EdinProject/Donky_iOS_SDK/DonkyUILibrary_v1/DonkyUIDependencyFreeSDK",
+					"$(PROJECT_DIR)/EdinProject/DonkyUI_SDK",
+				);
+				PRODUCT_NAME = "Hindu Mandir";
+				PROVISIONING_PROFILE = "E2CA328D-3A6D-4662-8FE3-05466DF11337";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7EE973E1195F7FEE004FFA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EdinProject.app/EdinProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EdinProject/EdinProject-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EdinProjectTests/Hindu MandirTests-Info.plist";
+				PRODUCT_NAME = "Hindu MandirTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7EE973E2195F7FEE004FFA7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EdinProject.app/EdinProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EdinProject/EdinProject-Prefix.pch";
+				INFOPLIST_FILE = "EdinProjectTests/Hindu MandirTests-Info.plist";
+				PRODUCT_NAME = "Hindu MandirTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EE973A6195F7FEE004FFA7E /* Build configuration list for PBXProject "Hindu Mandir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EE973DB195F7FEE004FFA7E /* Debug */,
+				7EE973DC195F7FEE004FFA7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EE973DD195F7FEE004FFA7E /* Build configuration list for PBXNativeTarget "Hindu Mandir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EE973DE195F7FEE004FFA7E /* Debug */,
+				7EE973DF195F7FEE004FFA7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EE973E0195F7FEE004FFA7E /* Build configuration list for PBXNativeTarget "Hindu MandirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EE973E1195F7FEE004FFA7E /* Debug */,
+				7EE973E2195F7FEE004FFA7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EE973A3195F7FEE004FFA7E /* Project object */;
+}
