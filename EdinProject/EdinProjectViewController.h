@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <iAd/iAD.h>
 
-@interface EdinProjectViewController : UIViewController
-
+@interface EdinProjectViewController : UIViewController <ADBannerViewDelegate>
+@property (nonatomic ,weak) NSArray *colorToAnimate;
+-(void)setOpeningTime;
 @end
