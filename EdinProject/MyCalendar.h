@@ -11,4 +11,6 @@
 @interface MyCalendar : NSObject
 + (void)addEventAt:(NSDate*)eventDate withEndDate:(NSDate *)endDate withTitle:(NSString*)title inLocation:(NSString*)location;
 +(BOOL) isEventStoredInCal:(NSDate *)start end:(NSDate *)end title:(NSString *)title;
++(NSString *) getEventID:(NSDate *)start end:(NSDate *)end title:(NSString *)title;
+
 @end

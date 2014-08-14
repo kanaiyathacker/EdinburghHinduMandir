@@ -35,9 +35,14 @@
                withEndDate:[DateUtil formatDate:@"YYYY-MM-dd'T'HH:mm:ssZ" withStringDate:[data end]]
                  withTitle:data.summary inLocation:[data location]];
     
-//    UIButton *button = sender;
-//    button.enabled =  NO;
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"calshow://"]];
+    NSString *eventID = [MyCalendar getEventID :[DateUtil formatDate:@"YYYY-MM-dd'T'HH:mm:ssZ" withStringDate:[data start]]
+                                end:[DateUtil formatDate:@"YYYY-MM-dd'T'HH:mm:ssZ" withStringDate:[data end]]
+                              title:data.summary
+     ];
+
+    NSString *eventLink =  [NSString stringWithFormat:@"calshow://?eventid=%@" , eventID];
+    NSLog(@"url %@ " , eventLink);
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:eventLink]];
 
 }
 

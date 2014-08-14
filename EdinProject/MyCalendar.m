@@ -45,6 +45,37 @@
 +(BOOL) isEventStoredInCal:(NSDate *)start end:(NSDate *)end title:(NSString *)title
 {
     // Create the predicate from the event store's instance method
+    EKEventStore *eventStore=[[EKEventStore alloc] init];
+    
+    NSPredicate *predicate = [eventStore predicateForEventsWithStartDate:start
+                              
+                                                            endDate:end
+                              
+                                                          calendars:nil];
+    
+    
+    
+   //    // Fetch all events that match the predicate
+    BOOL retVal = NO;
+    NSArray *events = [eventStore eventsMatchingPredicate:predicate];
+    NSLog(@"isEventStoredInCal");
+    for(EKEvent *curr in events) {
+        NSLog(@"calendarItemIdentifier %@ " , curr.calendarItemIdentifier);
+        NSLog(@"calendarItemExternalIdentifier %@ " , curr.calendarItemExternalIdentifier);
+        NSLog(@"calendarItemExternalIdentifier %@ " , curr.URL);
+        NSLog(@"calendarItemExternalIdentifier %@ " , [curr.calendar calendarIdentifier]);
+        if([title isEqualToString:curr.title]) {
+            NSLog(@"Event id -- %@" , [curr eventIdentifier]);
+            retVal = YES;
+        }
+    }
+    return retVal;
+}
+
++(NSString *) getEventID:(NSDate *)start end:(NSDate *)end title:(NSString *)title
+{
+    // Create the predicate from the event store's instance method
+    NSString *retVal;
     EKEventStore *store=[[EKEventStore alloc] init];
     
     NSPredicate *predicate = [store predicateForEventsWithStartDate:start
@@ -54,18 +85,27 @@
                                                           calendars:nil];
     
     
-    
+    NSLog(@"Start date %@ %@" , start , end);
     // Fetch all events that match the predicate
-    BOOL retVal = NO;
+//    BOOL retVal = NO;
     NSArray *events = [store eventsMatchingPredicate:predicate];
+    NSLog(@"isEventStoredInCal");
     for(EKEvent *curr in events) {
-        
+        NSLog(@"isEventStoredInCal %@ " , curr.title);
         if([title isEqualToString:curr.title]) {
-            retVal = YES;
+            NSLog(@"calendarItemIdentifier %@ " , curr.calendarItemIdentifier);
+                    NSLog(@"calendarItemExternalIdentifier %@ " , curr.calendarItemExternalIdentifier);
+                    NSLog(@"calendarItemExternalIdentifier %@ " , curr.URL);
+                    NSLog(@"calendarItemExternalIdentifier %@ " , [curr.calendar calendarIdentifier]);
+                    NSLog(@"calendarItemExternalIdentifier %@ " , [curr accessibilityLabel]);
+            
+            retVal = [curr.calendar calendarIdentifier];
+            break;
         }
     }
     return retVal;
 }
+
 
 + (BOOL)checkIsDeviceVersionHigherThanRequiredVersion:(NSString *)requiredVersion
 {
