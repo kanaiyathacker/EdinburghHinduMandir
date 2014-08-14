@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0500"
+   LastUpgradeVersion = "0510"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7EE973AA195F7FEE004FFA7E"
-               BuildableName = "EdinProject.app"
-               BlueprintName = "EdinProject"
-               ReferencedContainer = "container:EdinProject.xcodeproj">
+               BuildableName = "Hindu Mandir.app"
+               BlueprintName = "Hindu Mandir"
+               ReferencedContainer = "container:Hindu Mandir.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7EE973CB195F7FEE004FFA7E"
-               BuildableName = "EdinProjectTests.xctest"
-               BlueprintName = "EdinProjectTests"
-               ReferencedContainer = "container:EdinProject.xcodeproj">
+               BuildableName = "Hindu MandirTests.xctest"
+               BlueprintName = "Hindu MandirTests"
+               ReferencedContainer = "container:Hindu Mandir.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7EE973AA195F7FEE004FFA7E"
-            BuildableName = "EdinProject.app"
-            BlueprintName = "EdinProject"
-            ReferencedContainer = "container:EdinProject.xcodeproj">
+            BuildableName = "Hindu Mandir.app"
+            BlueprintName = "Hindu Mandir"
+            ReferencedContainer = "container:Hindu Mandir.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7EE973AA195F7FEE004FFA7E"
-            BuildableName = "EdinProject.app"
-            BlueprintName = "EdinProject"
-            ReferencedContainer = "container:EdinProject.xcodeproj">
+            BuildableName = "Hindu Mandir.app"
+            BlueprintName = "Hindu Mandir"
+            ReferencedContainer = "container:Hindu Mandir.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7EE973AA195F7FEE004FFA7E"
-            BuildableName = "EdinProject.app"
-            BlueprintName = "EdinProject"
-            ReferencedContainer = "container:EdinProject.xcodeproj">
+            BuildableName = "Hindu Mandir.app"
+            BlueprintName = "Hindu Mandir"
+            ReferencedContainer = "container:Hindu Mandir.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
