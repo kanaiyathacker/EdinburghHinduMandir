@@ -13,6 +13,20 @@
 		7E181D1519733C5500E56C78 /* GalleryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E181D1419733C5500E56C78 /* GalleryTableViewController.m */; };
 		7E181D181975C5D800E56C78 /* GalleryPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E181D171975C5D800E56C78 /* GalleryPhotoViewController.m */; };
 		7E181D1B1975C69A00E56C78 /* SlideImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E181D1A1975C69A00E56C78 /* SlideImageView.m */; };
+		7E4BB0A9199EB87600EA8F8C /* bg_pattern_wood@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4BB09B199EB87600EA8F8C /* bg_pattern_wood@2x.png */; };
+		7E4BB0AA199EB87600EA8F8C /* bg_pattern_wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4BB09C199EB87600EA8F8C /* bg_pattern_wood.png */; };
+		7E4BB0AB199EB87600EA8F8C /* recipe_tab_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4BB09D199EB87600EA8F8C /* recipe_tab_3@2x.png */; };
+		7E4BB0AC199EB87600EA8F8C /* recipe_tab_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4BB09E199EB87600EA8F8C /* recipe_tab_3.png */; };
+		7E4BB0AD199EB87600EA8F8C /* recipe_tab_3_active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4BB09F199EB87600EA8F8C /* recipe_tab_3_active@2x.png */; };
+		7E4BB0AE199EB87600EA8F8C /* recipe_tab_3_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4BB0A0199EB87600EA8F8C /* recipe_tab_3_active.png */; };
+		7E4BB0AF199EB87600EA8F8C /* recipe_tab_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4BB0A1199EB87600EA8F8C /* recipe_tab_2@2x.png */; };
+		7E4BB0B0199EB87600EA8F8C /* recipe_tab_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4BB0A2199EB87600EA8F8C /* recipe_tab_2.png */; };
+		7E4BB0B1199EB87600EA8F8C /* recipe_tab_2_active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4BB0A3199EB87600EA8F8C /* recipe_tab_2_active@2x.png */; };
+		7E4BB0B2199EB87600EA8F8C /* recipe_tab_2_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4BB0A4199EB87600EA8F8C /* recipe_tab_2_active.png */; };
+		7E4BB0B3199EB87600EA8F8C /* recipe_tab_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4BB0A5199EB87600EA8F8C /* recipe_tab_1@2x.png */; };
+		7E4BB0B4199EB87600EA8F8C /* recipe_tab_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4BB0A6199EB87600EA8F8C /* recipe_tab_1.png */; };
+		7E4BB0B5199EB87600EA8F8C /* recipe_tab_1_active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4BB0A7199EB87600EA8F8C /* recipe_tab_1_active@2x.png */; };
+		7E4BB0B6199EB87600EA8F8C /* recipe_tab_1_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E4BB0A8199EB87600EA8F8C /* recipe_tab_1_active.png */; };
 		7E61632A19917CE500AB027B /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E61632919917CE500AB027B /* PageContentViewController.m */; };
 		7E871835199570CC00FE38C5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E871834199570CC00FE38C5 /* Default-568h@2x.png */; };
 		7EDECBAA1986FA40008DCCF0 /* Bal-Ganesh.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDECBA91986FA40008DCCF0 /* Bal-Ganesh.png */; };
@@ -64,6 +78,11 @@
 		7EE97409195F9EA6004FFA7E /* MyCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE97408195F9EA6004FFA7E /* MyCalendar.m */; };
 		7EE9740F1960166F004FFA7E /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9740E1960166F004FFA7E /* EventsViewController.m */; };
 		7EE9741219601D2B004FFA7E /* EventDetialsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9741119601D2B004FFA7E /* EventDetialsViewController.m */; };
+		7EF0DFF7199D5610006653A2 /* ATLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF0DFF6199D5610006653A2 /* ATLabel.m */; };
+		7EF0DFFC199D71E8006653A2 /* SegmentButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF0DFF8199D71E8006653A2 /* SegmentButtonView.m */; };
+		7EF0DFFD199D71E8006653A2 /* RecipeSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF0DFFA199D71E8006653A2 /* RecipeSegmentControl.m */; };
+		7EF0E000199D77BB006653A2 /* ContactUSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF0DFFF199D77BB006653A2 /* ContactUSViewController.m */; };
+		7EF0E003199EA75D006653A2 /* OpeningTimeButtonTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF0E002199EA75D006653A2 /* OpeningTimeButtonTabViewController.m */; };
 		7EF7A97319636C040095C849 /* MonthlyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7A97219636C040095C849 /* MonthlyTableViewController.m */; };
 		7EF7A97619636C250095C849 /* YearlyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7A97519636C250095C849 /* YearlyTableViewController.m */; };
 		7EF7A979196836F90095C849 /* NextEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7A978196836F90095C849 /* NextEventViewController.m */; };
@@ -92,6 +111,20 @@
 		7E181D171975C5D800E56C78 /* GalleryPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryPhotoViewController.m; sourceTree = "<group>"; };
 		7E181D191975C69A00E56C78 /* SlideImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideImageView.h; sourceTree = "<group>"; };
 		7E181D1A1975C69A00E56C78 /* SlideImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideImageView.m; sourceTree = "<group>"; };
+		7E4BB09B199EB87600EA8F8C /* bg_pattern_wood@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_pattern_wood@2x.png"; sourceTree = "<group>"; };
+		7E4BB09C199EB87600EA8F8C /* bg_pattern_wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_pattern_wood.png; sourceTree = "<group>"; };
+		7E4BB09D199EB87600EA8F8C /* recipe_tab_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recipe_tab_3@2x.png"; sourceTree = "<group>"; };
+		7E4BB09E199EB87600EA8F8C /* recipe_tab_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_tab_3.png; sourceTree = "<group>"; };
+		7E4BB09F199EB87600EA8F8C /* recipe_tab_3_active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recipe_tab_3_active@2x.png"; sourceTree = "<group>"; };
+		7E4BB0A0199EB87600EA8F8C /* recipe_tab_3_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_tab_3_active.png; sourceTree = "<group>"; };
+		7E4BB0A1199EB87600EA8F8C /* recipe_tab_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recipe_tab_2@2x.png"; sourceTree = "<group>"; };
+		7E4BB0A2199EB87600EA8F8C /* recipe_tab_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_tab_2.png; sourceTree = "<group>"; };
+		7E4BB0A3199EB87600EA8F8C /* recipe_tab_2_active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recipe_tab_2_active@2x.png"; sourceTree = "<group>"; };
+		7E4BB0A4199EB87600EA8F8C /* recipe_tab_2_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_tab_2_active.png; sourceTree = "<group>"; };
+		7E4BB0A5199EB87600EA8F8C /* recipe_tab_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recipe_tab_1@2x.png"; sourceTree = "<group>"; };
+		7E4BB0A6199EB87600EA8F8C /* recipe_tab_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_tab_1.png; sourceTree = "<group>"; };
+		7E4BB0A7199EB87600EA8F8C /* recipe_tab_1_active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recipe_tab_1_active@2x.png"; sourceTree = "<group>"; };
+		7E4BB0A8199EB87600EA8F8C /* recipe_tab_1_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_tab_1_active.png; sourceTree = "<group>"; };
 		7E61632819917CE500AB027B /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
 		7E61632919917CE500AB027B /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
 		7E871834199570CC00FE38C5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -182,6 +215,16 @@
 		7EE9740E1960166F004FFA7E /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventsViewController.m; path = ../EventsViewController.m; sourceTree = "<group>"; };
 		7EE9741019601D2B004FFA7E /* EventDetialsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetialsViewController.h; sourceTree = "<group>"; };
 		7EE9741119601D2B004FFA7E /* EventDetialsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetialsViewController.m; sourceTree = "<group>"; };
+		7EF0DFF5199D5610006653A2 /* ATLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATLabel.h; sourceTree = "<group>"; };
+		7EF0DFF6199D5610006653A2 /* ATLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATLabel.m; sourceTree = "<group>"; };
+		7EF0DFF8199D71E8006653A2 /* SegmentButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentButtonView.m; sourceTree = "<group>"; };
+		7EF0DFF9199D71E8006653A2 /* SegmentButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentButtonView.h; sourceTree = "<group>"; };
+		7EF0DFFA199D71E8006653A2 /* RecipeSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeSegmentControl.m; sourceTree = "<group>"; };
+		7EF0DFFB199D71E8006653A2 /* RecipeSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeSegmentControl.h; sourceTree = "<group>"; };
+		7EF0DFFE199D77BB006653A2 /* ContactUSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactUSViewController.h; sourceTree = "<group>"; };
+		7EF0DFFF199D77BB006653A2 /* ContactUSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactUSViewController.m; sourceTree = "<group>"; };
+		7EF0E001199EA75D006653A2 /* OpeningTimeButtonTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpeningTimeButtonTabViewController.h; sourceTree = "<group>"; };
+		7EF0E002199EA75D006653A2 /* OpeningTimeButtonTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpeningTimeButtonTabViewController.m; sourceTree = "<group>"; };
 		7EF7A9701963660E0095C849 /* EdinProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = EdinProject.entitlements; sourceTree = "<group>"; };
 		7EF7A97119636C040095C849 /* MonthlyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonthlyTableViewController.h; sourceTree = "<group>"; };
 		7EF7A97219636C040095C849 /* MonthlyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthlyTableViewController.m; sourceTree = "<group>"; };
@@ -219,6 +262,20 @@
 		7EDECBCE198E7D65008DCCF0 /* animtaion */ = {
 			isa = PBXGroup;
 			children = (
+				7E4BB09B199EB87600EA8F8C /* bg_pattern_wood@2x.png */,
+				7E4BB09C199EB87600EA8F8C /* bg_pattern_wood.png */,
+				7E4BB09D199EB87600EA8F8C /* recipe_tab_3@2x.png */,
+				7E4BB09E199EB87600EA8F8C /* recipe_tab_3.png */,
+				7E4BB09F199EB87600EA8F8C /* recipe_tab_3_active@2x.png */,
+				7E4BB0A0199EB87600EA8F8C /* recipe_tab_3_active.png */,
+				7E4BB0A1199EB87600EA8F8C /* recipe_tab_2@2x.png */,
+				7E4BB0A2199EB87600EA8F8C /* recipe_tab_2.png */,
+				7E4BB0A3199EB87600EA8F8C /* recipe_tab_2_active@2x.png */,
+				7E4BB0A4199EB87600EA8F8C /* recipe_tab_2_active.png */,
+				7E4BB0A5199EB87600EA8F8C /* recipe_tab_1@2x.png */,
+				7E4BB0A6199EB87600EA8F8C /* recipe_tab_1.png */,
+				7E4BB0A7199EB87600EA8F8C /* recipe_tab_1_active@2x.png */,
+				7E4BB0A8199EB87600EA8F8C /* recipe_tab_1_active.png */,
 				7EDECBCF198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorSlide.h */,
 				7EDECBD0198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorSlide.m */,
 				7EDECBD1198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorFade.h */,
@@ -289,6 +346,12 @@
 		7EE973B5195F7FEE004FFA7E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7EF0DFF8199D71E8006653A2 /* SegmentButtonView.m */,
+				7EF0DFF9199D71E8006653A2 /* SegmentButtonView.h */,
+				7EF0DFFA199D71E8006653A2 /* RecipeSegmentControl.m */,
+				7EF0DFFB199D71E8006653A2 /* RecipeSegmentControl.h */,
+				7EF0DFF5199D5610006653A2 /* ATLabel.h */,
+				7EF0DFF6199D5610006653A2 /* ATLabel.m */,
 				7EDECBF919903AC5008DCCF0 /* AboutUSUITabBarController.h */,
 				7EDECBFA19903AC5008DCCF0 /* AboutUSUITabBarController.m */,
 				7EDECBF3198EF083008DCCF0 /* KGModal.h */,
@@ -365,6 +428,10 @@
 				7E181D171975C5D800E56C78 /* GalleryPhotoViewController.m */,
 				7E61632819917CE500AB027B /* PageContentViewController.h */,
 				7E61632919917CE500AB027B /* PageContentViewController.m */,
+				7EF0DFFE199D77BB006653A2 /* ContactUSViewController.h */,
+				7EF0DFFF199D77BB006653A2 /* ContactUSViewController.m */,
+				7EF0E001199EA75D006653A2 /* OpeningTimeButtonTabViewController.h */,
+				7EF0E002199EA75D006653A2 /* OpeningTimeButtonTabViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -475,10 +542,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E4BB0AF199EB87600EA8F8C /* recipe_tab_2@2x.png in Resources */,
+				7E4BB0AD199EB87600EA8F8C /* recipe_tab_3_active@2x.png in Resources */,
+				7E4BB0AE199EB87600EA8F8C /* recipe_tab_3_active.png in Resources */,
 				7EDECBAF1987193A008DCCF0 /* cute-ganesha-wallpaper.png in Resources */,
+				7E4BB0B2199EB87600EA8F8C /* recipe_tab_2_active.png in Resources */,
+				7E4BB0B5199EB87600EA8F8C /* recipe_tab_1_active@2x.png in Resources */,
+				7E4BB0B0199EB87600EA8F8C /* recipe_tab_2.png in Resources */,
+				7E4BB0B6199EB87600EA8F8C /* recipe_tab_1_active.png in Resources */,
+				7E4BB0A9199EB87600EA8F8C /* bg_pattern_wood@2x.png in Resources */,
+				7E4BB0B4199EB87600EA8F8C /* recipe_tab_1.png in Resources */,
 				7EE973C7195F7FEE004FFA7E /* Images.xcassets in Resources */,
+				7E4BB0B1199EB87600EA8F8C /* recipe_tab_2_active@2x.png in Resources */,
 				7EE973B9195F7FEE004FFA7E /* InfoPlist.strings in Resources */,
+				7E4BB0AA199EB87600EA8F8C /* bg_pattern_wood.png in Resources */,
 				7EE973C2195F7FEE004FFA7E /* Main.storyboard in Resources */,
+				7E4BB0B3199EB87600EA8F8C /* recipe_tab_1@2x.png in Resources */,
+				7E4BB0AB199EB87600EA8F8C /* recipe_tab_3@2x.png in Resources */,
+				7E4BB0AC199EB87600EA8F8C /* recipe_tab_3.png in Resources */,
 				7EDECBAA1986FA40008DCCF0 /* Bal-Ganesh.png in Resources */,
 				7E871835199570CC00FE38C5 /* Default-568h@2x.png in Resources */,
 			);
@@ -514,18 +595,22 @@
 				7EE973BB195F7FEE004FFA7E /* main.m in Sources */,
 				7EDECBDD198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorScale.m in Sources */,
 				7EE97402195F802A004FFA7E /* DonatiionViewController.m in Sources */,
+				7EF0DFFC199D71E8006653A2 /* SegmentButtonView.m in Sources */,
 				7EF7A97319636C040095C849 /* MonthlyTableViewController.m in Sources */,
 				7E181D1B1975C69A00E56C78 /* SlideImageView.m in Sources */,
 				7E181D0F1972EBE800E56C78 /* HinduCalendarDetailViewController.m in Sources */,
 				7EE973FF195F802A004FFA7E /* ContactViewController.m in Sources */,
 				7EDECBBB198AE4ED008DCCF0 /* MonthlyHoroscopeViewController.m in Sources */,
+				7EF0E000199D77BB006653A2 /* ContactUSViewController.m in Sources */,
 				7EDECBB219898351008DCCF0 /* HoroscopeTableViewController.m in Sources */,
 				7E181D12197331B300E56C78 /* GalleryData.m in Sources */,
 				7E61632A19917CE500AB027B /* PageContentViewController.m in Sources */,
 				7EE97409195F9EA6004FFA7E /* MyCalendar.m in Sources */,
 				7EDECBC7198E5646008DCCF0 /* WeeklyHoroscopeViewController.m in Sources */,
+				7EF0DFF7199D5610006653A2 /* ATLabel.m in Sources */,
 				7EDECBDA198E7D74008DCCF0 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
 				7EE97403195F802A004FFA7E /* VolunteersViewController.m in Sources */,
+				7EF0E003199EA75D006653A2 /* OpeningTimeButtonTabViewController.m in Sources */,
 				7EDECBC1198CF723008DCCF0 /* OpeningTImeTabViewController.m in Sources */,
 				7EDECBB819899515008DCCF0 /* DailyHoroscopeViewController.m in Sources */,
 				7EE97401195F802A004FFA7E /* DonationViewController.m in Sources */,
@@ -542,6 +627,7 @@
 				7EE97406195F802A004FFA7E /* OpeningDetailsViewController.m in Sources */,
 				7EE973FB195F802A004FFA7E /* AccessData.m in Sources */,
 				7E181D0C1972E0C800E56C78 /* HinduCalendarTableViewController.m in Sources */,
+				7EF0DFFD199D71E8006653A2 /* RecipeSegmentControl.m in Sources */,
 				7EE97404195F802A004FFA7E /* CommunityHallBookingViewController.m in Sources */,
 				7EDECBF5198EF083008DCCF0 /* KGModal.m in Sources */,
 			);

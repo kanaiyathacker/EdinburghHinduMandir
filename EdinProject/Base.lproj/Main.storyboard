@@ -20,7 +20,7 @@
                                 <rect key="frame" x="20" y="92" width="280" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KTX-hn-3jN">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KTX-hn-3jN" customClass="ATLabel">
                                 <rect key="frame" x="20" y="280" width="280" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -30,7 +30,7 @@
                                 <color key="textColor" red="0.31372550129999999" green="0.011764707040000001" blue="0.011764707040000001" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HV0-JT-DNs">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HV0-JT-DNs" customClass="ATLabel">
                                 <rect key="frame" x="20" y="301" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
@@ -206,7 +206,9 @@
                     <size key="freeformSize" width="320" height="568"/>
                     <connections>
                         <outlet property="eventButton" destination="zLJ-i0-fna" id="a6C-LA-auu"/>
+                        <outlet property="menuButton" destination="J0k-ZQ-nhd" id="ohB-RB-NI1"/>
                         <outlet property="openingTimeLable" destination="KTX-hn-3jN" id="gx6-Cy-vWZ"/>
+                        <outlet property="ppmphj" destination="24s-6Q-Bmm" id="zwU-nD-CmJ"/>
                         <outlet property="timeLable" destination="HV0-JT-DNs" id="glE-7D-G5G"/>
                         <segue destination="v8G-hY-fL6" kind="push" identifier="No Network" id="MXh-LF-T4G"/>
                     </connections>
@@ -268,6 +270,7 @@
                         <segue destination="IhB-s0-rLH" kind="push" identifier="Panchang" id="jJL-2j-dCb"/>
                         <segue destination="lgh-pr-I0P" kind="push" identifier="timing" id="iAh-FP-xrB"/>
                         <segue destination="bHd-VW-qqQ" kind="push" identifier="AboutUs" id="tgT-pY-hIU"/>
+                        <segue destination="6rI-R4-7ek" kind="push" identifier="openingTime" id="mwY-8c-bx1"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xPM-e3-JUZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -799,7 +802,7 @@ MR PARAS PATEL
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mpM-KV-iyF">
+                            <button opaque="NO" tag="200" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mpM-KV-iyF">
                                 <rect key="frame" x="20" y="494" width="280" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1960784314" green="0.69411764710000001" blue="0.87450980389999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -878,7 +881,7 @@ If you are willing to help us please contact us. your help will be greatly appri
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFf-7e-hry">
+                            <button opaque="NO" tag="210" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFf-7e-hry">
                                 <rect key="frame" x="20" y="494" width="280" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1960784314" green="0.69411764710000001" blue="0.87450980389999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -959,7 +962,7 @@ Meanwhile, If you wish to make a donation please contact us. We will provide you
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iiM-MM-uHO">
+                            <button opaque="NO" tag="200" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iiM-MM-uHO">
                                 <rect key="frame" x="20" y="494" width="280" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1960784314" green="0.69411764710000001" blue="0.87450980389999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -1309,7 +1312,7 @@ If you would like to book the Community Centre section of the Temple/ mandir the
                                 <rect key="frame" x="0.0" y="546" width="320" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GaS-qY-Unk">
+                            <button opaque="NO" tag="200" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GaS-qY-Unk">
                                 <rect key="frame" x="20" y="500" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -1359,6 +1362,72 @@ If you would like to book the Community Centre section of the Temple/ mandir the
             </objects>
             <point key="canvasLocation" x="1892" y="2253"/>
         </scene>
+        <!--Opening Time Button Tab View Controller-->
+        <scene sceneID="bTi-Ta-Ltg">
+            <objects>
+                <viewController id="6rI-R4-7ek" customClass="OpeningTimeButtonTabViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DUH-Q1-rNo"/>
+                        <viewControllerLayoutGuide type="bottom" id="pDe-NS-SWl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RmK-45-8ai">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="divider2" translatesAutoresizingMaskIntoConstraints="NO" id="1n5-VH-Xpq">
+                                <rect key="frame" x="0.0" y="64" width="320" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="divider2" translatesAutoresizingMaskIntoConstraints="NO" id="cVN-Et-ZZI">
+                                <rect key="frame" x="0.0" y="548" width="320" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Opening Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UAn-gG-mvz">
+                                <rect key="frame" x="20" y="141" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.31372550129999999" green="0.011764707040000001" blue="0.011764707040000001" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4S-kD-BW9">
+                                <rect key="frame" x="20" y="195" width="280" height="287"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.8862745098" green="0.63921568630000003" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.67058825489999996" green="0.066666670139999995" blue="0.03529411927" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" tag="200" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8wL-7n-WxD">
+                                <rect key="frame" x="20" y="507" width="280" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Save to Calendar" backgroundImage="Cool-Red-Font">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveToCalendar:" destination="6rI-R4-7ek" eventType="touchUpInside" id="8Sg-Xd-cd3"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhh-M0-S7i">
+                                <rect key="frame" x="20" y="162" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.67058825489999996" green="0.066666670139999995" blue="0.03529411927" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.8862745098" green="0.63921568630000003" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SyT-1o-Bb8"/>
+                    <connections>
+                        <outlet property="openingTIme" destination="xhh-M0-S7i" id="rew-if-GCP"/>
+                        <outlet property="textView" destination="a4S-kD-BW9" id="m54-0B-BSv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bGg-Bv-P1R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2054" y="4163"/>
+        </scene>
         <!--Contact View Controller - Contact us-->
         <scene sceneID="YQe-q4-KUr">
             <objects>
@@ -1384,7 +1453,7 @@ EH6 7EG </string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H5N-la-fcU">
-                                <rect key="frame" x="23" y="210" width="46" height="45"/>
+                                <rect key="frame" x="254" y="128" width="46" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="google map icon">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1394,7 +1463,7 @@ EH6 7EG </string>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="07890726117" translatesAutoresizingMaskIntoConstraints="NO" id="0Ft-l6-YD5">
-                                <rect key="frame" x="76" y="347" width="214" height="38"/>
+                                <rect key="frame" x="61" y="446" width="214" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.8862745098" green="0.63921568630000003" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" red="0.42745098040000001" green="0.46274509800000002" blue="0.49019607840000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1403,10 +1472,10 @@ EH6 7EG </string>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tel_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="yAf-bm-rq3">
-                                <rect key="frame" x="31" y="350" width="31" height="32"/>
+                                <rect key="frame" x="20" y="449" width="31" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ORl-Pl-hIE">
+                            <button opaque="NO" tag="200" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ORl-Pl-hIE">
                                 <rect key="frame" x="25" y="492" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.67058825489999996" green="0.066666670139999995" blue="0.03529411927" alpha="1" colorSpace="deviceRGB"/>
@@ -1423,7 +1492,7 @@ EH6 7EG </string>
                                 </connections>
                             </button>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="eic-X2-r3w">
-                                <rect key="frame" x="142" y="277" width="37" height="37"/>
+                                <rect key="frame" x="142" y="294" width="37" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="color" red="0.67058825489999996" green="0.066666670139999995" blue="0.03529411927" alpha="1" colorSpace="deviceRGB"/>
                             </activityIndicatorView>
@@ -1435,6 +1504,10 @@ EH6 7EG </string>
                                 <rect key="frame" x="0.0" y="545" width="320" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zTU-Nj-eMX">
+                                <rect key="frame" x="25" y="188" width="275" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" red="0.8862745098" green="0.63921568630000003" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -1448,6 +1521,7 @@ EH6 7EG </string>
                     </view>
                     <navigationItem key="navigationItem" title="Contact us" id="5Nc-bH-65T"/>
                     <connections>
+                        <outlet property="mapView" destination="zTU-Nj-eMX" id="mL7-yu-bda"/>
                         <outlet property="spinner" destination="eic-X2-r3w" id="7ri-VU-tvG"/>
                         <outlet property="telphoneNumber" destination="0Ft-l6-YD5" id="TdM-Fm-yGu"/>
                     </connections>
@@ -2256,7 +2330,7 @@ If there are any devotees interested in becoming sponsors of any of these deitie
                                 <rect key="frame" x="0.0" y="545" width="320" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ejj-an-0A8">
+                            <button opaque="NO" tag="200" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ejj-an-0A8">
                                 <rect key="frame" x="21" y="490" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Save to Calendar" backgroundImage="Cool-Red-Font">

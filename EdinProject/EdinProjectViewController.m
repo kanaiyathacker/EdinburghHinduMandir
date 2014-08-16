@@ -13,18 +13,23 @@
 #import <EventKit/EventKit.h>
 #import "MenuItemViewController.h"
 #import "KGModal.h"
+#import "ATLabel.h"
+
 
 
 
 @interface EdinProjectViewController () <UIViewControllerTransitioningDelegate>
-@property (weak, nonatomic) IBOutlet UILabel *openingTimeLable;
-@property (weak, nonatomic) IBOutlet UILabel *timeLable;
+@property (weak, nonatomic) IBOutlet ATLabel *openingTimeLable;
+@property (weak, nonatomic) IBOutlet ATLabel *timeLable;
 @property (nonatomic , strong)AccessData *accessData;
 @property (weak, nonatomic) IBOutlet UIButton *eventButton;
 @property (nonatomic , strong)CalendarData *nextEventDetails;
 @property (nonatomic,assign) BOOL bannerIsVisible;
 @property (nonatomic,weak) ADBannerView *adBanner;
+@property (nonatomic,weak) NSMutableArray *addOpeningTime;
+@property (weak, nonatomic) IBOutlet UIButton *menuButton;
 
+@property (weak, nonatomic) IBOutlet UIButton *ppmphj;
 
 @end
 #define Rgb2UIColor(r, g, b)  [UIColor colorWithRed:((r) / 255.0) green:((g) / 255.0) blue:((b) / 255.0) alpha:1.0]
@@ -226,6 +231,35 @@
     }
         
     
+    CALayer *btnLayer = [self.menuButton layer];
+    [btnLayer setMasksToBounds:YES];
+    [btnLayer setCornerRadius:5.0f];
+//
+    [btnLayer setBorderWidth:1.0f];
+    [btnLayer setBorderColor:[[UIColor whiteColor] CGColor]];
+    
+    
+    CALayer *btnLayer1 = [self.eventButton layer];
+    [btnLayer1 setMasksToBounds:YES];
+    [btnLayer1 setCornerRadius:5.0f];
+    //
+    [btnLayer1 setBorderWidth:1.0f];
+    [btnLayer1 setBorderColor:[[UIColor whiteColor] CGColor]];
+    
+    
+    CALayer *btnLayer2 = [self.ppmphj layer];
+    [btnLayer2 setMasksToBounds:YES];
+    [btnLayer2 setCornerRadius:5.0f];
+    //
+    [btnLayer2 setBorderWidth:1.0f];
+    [btnLayer2 setBorderColor:[[UIColor whiteColor] CGColor]];
+    
+    
+    
+
+//
+//    self.menuButton.transform = CGAffineTransformMakeRotation(M_PI / 180 * 5.0f);
+
     
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -289,6 +323,23 @@
 
             self.openingTimeLable.text = [data valueForKey:@"MSG"];
             self.timeLable.text = [data valueForKey:@"VAL"];
+                self.timeLable.wordList = [[NSArray alloc] init];
+                self.openingTimeLable.wordList  = [[NSArray alloc] init];
+                
+                [self.openingTimeLable animateWithWords:@[
+                                                   self.openingTimeLable.text,
+                                                   self.openingTimeLable.text
+                                                   ]
+                                     forDuration:2.0f
+                                   withAnimation:ATAnimationTypeFadeInOut];
+                
+                [self.timeLable animateWithWords:@[
+                                                       self.timeLable.text,
+                                                       self.timeLable.text
+                                                       ]
+                                         forDuration:2.0f
+                                       withAnimation:ATAnimationTypeFadeInOut];
+                
             [self animateTimingLabel];
                 
                 if(cData) {

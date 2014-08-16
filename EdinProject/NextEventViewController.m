@@ -26,6 +26,15 @@
 {
     [super viewDidLoad];
 //    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"BackGround.png"]];
+    UIView *button = [self.view viewWithTag:200];
+    
+    CALayer *btnLayer = [button layer];
+    [btnLayer setMasksToBounds:YES];
+    [btnLayer setCornerRadius:5.0f];
+    [btnLayer setBorderWidth:1.0f];
+    [btnLayer setBorderColor:[[UIColor whiteColor] CGColor]];
+
+    
     [self loadData];
     [self disableSaveForExistingEvent];
     
